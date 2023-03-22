@@ -131,6 +131,10 @@ func (h *HttpService) logger() gin.HandlerFunc {
 				return ""
 			}
 
+			if params.Path == routes.HealthRoute().Path {
+				return ""
+			}
+
 			var statusColor, methodColor, resetColor string
 			if params.IsOutputColor() {
 				statusColor = params.StatusCodeColor()
