@@ -26,7 +26,9 @@ func (t *TaskService) Init(service api.MainService) error {
 }
 
 func (t *TaskService) Start() error {
-	go t.CheckWakatimeActivityTask()
+	if err := t.CheckWakatimeActivityTask(); err != nil {
+		fmt.Printf("Error while checking wakatime activity: %v", err)
+	}
 	c := cron.New()
 	if err := c.AddFunc("@every 2m", func() {
 		if err := t.CheckWakatimeActivityTask(); err != nil {
@@ -35,6 +37,8 @@ func (t *TaskService) Start() error {
 	}); err != nil {
 		return err
 	}
+
+	c.Start()
 
 	return nil
 }
