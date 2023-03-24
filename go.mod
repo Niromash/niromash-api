@@ -1,4 +1,4 @@
-module niromash-api
+module github.com/Niromash/niromash-api
 
 go 1.20
 

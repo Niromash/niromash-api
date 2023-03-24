@@ -2,8 +2,8 @@ package database
 
 import (
 	"fmt"
+	"github.com/Niromash/niromash-api/api"
 	"gorm.io/gorm"
-	"niromash-api/api"
 	"time"
 )
 

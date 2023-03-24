@@ -1,9 +1,9 @@
 package services
 
 import (
+	"github.com/Niromash/niromash-api/api"
+	"github.com/Niromash/niromash-api/model"
 	"gorm.io/gorm"
-	"niromash-api/api"
-	"niromash-api/model"
 )
 
 var _ api.UsersService = (*UsersService)(nil)

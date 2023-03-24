@@ -1,7 +1,7 @@
 package external_services
 
 import (
-	"niromash-api/api"
+	"github.com/Niromash/niromash-api/api"
 )
 
 var _ api.ExternalServicesService = (*ExternalServicesService)(nil)

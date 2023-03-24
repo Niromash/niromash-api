@@ -1,10 +1,10 @@
 package projects
 
 import (
+	"github.com/Niromash/niromash-api/api"
+	"github.com/Niromash/niromash-api/model"
+	"github.com/Niromash/niromash-api/services/http/middlewares"
 	"github.com/gin-gonic/gin"
-	"niromash-api/api"
-	"niromash-api/model"
-	"niromash-api/services/http/middlewares"
 )
 
 func ListProjectsRoute() *api.Route {

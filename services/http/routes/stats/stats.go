@@ -1,9 +1,9 @@
 package stats
 
 import (
+	"github.com/Niromash/niromash-api/api"
 	"github.com/gin-gonic/gin"
 	"github.com/go-redis/redis/v8"
-	"niromash-api/api"
 	"time"
 )
 

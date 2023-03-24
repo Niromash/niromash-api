@@ -1,8 +1,8 @@
 package api
 
 import (
+	"github.com/Niromash/niromash-api/model"
 	"gorm.io/gorm"
-	"niromash-api/model"
 )
 
 type MainService interface {

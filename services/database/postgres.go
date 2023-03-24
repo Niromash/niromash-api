@@ -3,11 +3,11 @@ package database
 import (
 	"context"
 	"fmt"
+	"github.com/Niromash/niromash-api/api"
+	"github.com/Niromash/niromash-api/model"
+	"github.com/Niromash/niromash-api/utils/environment"
 	"gorm.io/driver/postgres"
 	"gorm.io/gorm"
-	"niromash-api/api"
-	"niromash-api/model"
-	"niromash-api/utils/environment"
 	"time"
 )
 

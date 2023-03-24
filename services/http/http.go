@@ -2,12 +2,12 @@ package http
 
 import (
 	"fmt"
+	"github.com/Niromash/niromash-api/api"
+	"github.com/Niromash/niromash-api/services/http/controllers"
+	"github.com/Niromash/niromash-api/services/http/middlewares"
+	"github.com/Niromash/niromash-api/services/http/routes"
 	"github.com/gin-gonic/gin"
 	"net"
-	"niromash-api/api"
-	"niromash-api/services/http/controllers"
-	"niromash-api/services/http/middlewares"
-	"niromash-api/services/http/routes"
 	"strings"
 	"time"
 )

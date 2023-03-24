@@ -3,12 +3,12 @@ package services
 import (
 	"context"
 	"fmt"
+	"github.com/Niromash/niromash-api/api"
+	"github.com/Niromash/niromash-api/model"
 	"github.com/go-redis/redis/v8"
 	"github.com/google/uuid"
 	"gorm.io/gorm"
 	"gorm.io/gorm/clause"
-	"niromash-api/api"
-	"niromash-api/model"
 	"strings"
 	"time"
 )

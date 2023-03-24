@@ -1,9 +1,9 @@
 package main
 
 import (
+	"github.com/Niromash/niromash-api/services"
+	"github.com/Niromash/niromash-api/utils/environment"
 	"log"
-	"niromash-api/services"
-	"niromash-api/utils/environment"
 )
 
 func main() {

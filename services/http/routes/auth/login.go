@@ -1,10 +1,10 @@
 package auth
 
 import (
+	"github.com/Niromash/niromash-api/api"
+	"github.com/Niromash/niromash-api/utils"
 	"github.com/gin-gonic/gin"
 	"net/http"
-	"niromash-api/api"
-	"niromash-api/utils"
 )
 
 type loginBody struct {

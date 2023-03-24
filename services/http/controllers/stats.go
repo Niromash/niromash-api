@@ -1,8 +1,8 @@
 package controllers
 
 import (
-	"niromash-api/api"
-	"niromash-api/services/http/routes/stats"
+	"github.com/Niromash/niromash-api/api"
+	"github.com/Niromash/niromash-api/services/http/routes/stats"
 )
 
 func StatsController() *api.Controller {

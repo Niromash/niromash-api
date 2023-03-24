@@ -1,11 +1,11 @@
 package auth
 
 import (
+	"github.com/Niromash/niromash-api/api"
+	"github.com/Niromash/niromash-api/model"
+	"github.com/Niromash/niromash-api/utils"
 	"github.com/gin-gonic/gin"
 	"net/http"
-	"niromash-api/api"
-	"niromash-api/model"
-	"niromash-api/utils"
 )
 
 type registerBody struct {

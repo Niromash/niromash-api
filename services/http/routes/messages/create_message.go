@@ -1,11 +1,11 @@
 package messages
 
 import (
+	"github.com/Niromash/niromash-api/api"
+	"github.com/Niromash/niromash-api/model"
 	"github.com/gin-gonic/gin"
 	"github.com/google/uuid"
 	"github.com/thoas/go-funk"
-	"niromash-api/api"
-	"niromash-api/model"
 	"strconv"
 	"strings"
 )

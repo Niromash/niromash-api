@@ -2,9 +2,9 @@ package services
 
 import (
 	"context"
+	"github.com/Niromash/niromash-api/api"
 	"github.com/go-redis/redis/v8"
 	"github.com/google/go-github/v50/github"
-	"niromash-api/api"
 	"strings"
 	"sync"
 	"time"

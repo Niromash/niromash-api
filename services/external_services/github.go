@@ -2,10 +2,10 @@ package external_services
 
 import (
 	"context"
+	"github.com/Niromash/niromash-api/api"
+	"github.com/Niromash/niromash-api/utils/environment"
 	"github.com/google/go-github/v50/github"
 	"golang.org/x/oauth2"
-	"niromash-api/api"
-	"niromash-api/utils/environment"
 	"sync"
 )
 

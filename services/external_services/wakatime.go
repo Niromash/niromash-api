@@ -2,10 +2,10 @@ package external_services
 
 import (
 	"encoding/base64"
+	"github.com/Niromash/niromash-api/api"
+	"github.com/Niromash/niromash-api/utils/environment"
 	"github.com/goccy/go-json"
 	"net/http"
-	"niromash-api/api"
-	"niromash-api/utils/environment"
 	"time"
 )
 

@@ -1,10 +1,10 @@
 package services
 
 import (
-	"niromash-api/api"
-	"niromash-api/services/database"
-	"niromash-api/services/external_services"
-	"niromash-api/services/http"
+	"github.com/Niromash/niromash-api/api"
+	"github.com/Niromash/niromash-api/services/database"
+	"github.com/Niromash/niromash-api/services/external_services"
+	"github.com/Niromash/niromash-api/services/http"
 	"sort"
 )
 

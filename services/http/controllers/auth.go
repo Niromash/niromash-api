@@ -1,8 +1,8 @@
 package controllers
 
 import (
-	"niromash-api/api"
-	"niromash-api/services/http/routes/auth"
+	"github.com/Niromash/niromash-api/api"
+	"github.com/Niromash/niromash-api/services/http/routes/auth"
 )
 
 func AuthController() *api.Controller {

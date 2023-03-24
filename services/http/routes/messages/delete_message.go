@@ -1,8 +1,8 @@
 package messages
 
 import (
+	"github.com/Niromash/niromash-api/api"
 	"github.com/gin-gonic/gin"
-	"niromash-api/api"
 )
 
 func DeleteMessageRoute() *api.Route {

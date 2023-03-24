@@ -3,9 +3,9 @@ package services
 import (
 	"context"
 	"fmt"
+	"github.com/Niromash/niromash-api/api"
 	"github.com/go-redis/redis/v8"
 	"github.com/robfig/cron"
-	"niromash-api/api"
 	"strconv"
 	"time"
 )

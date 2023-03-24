@@ -1,8 +1,8 @@
 package api
 
 import (
+	"github.com/Niromash/niromash-api/model"
 	"github.com/google/uuid"
-	"niromash-api/model"
 )
 
 type MessagesService interface {

@@ -1,9 +1,9 @@
 package utils
 
 import (
+	"github.com/Niromash/niromash-api/api"
+	"github.com/Niromash/niromash-api/utils/environment"
 	"github.com/golang-jwt/jwt/v5"
-	"niromash-api/api"
-	"niromash-api/utils/environment"
 	"time"
 )
 

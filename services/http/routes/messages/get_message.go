@@ -2,11 +2,11 @@ package messages
 
 import (
 	"fmt"
+	"github.com/Niromash/niromash-api/api"
+	"github.com/Niromash/niromash-api/model"
 	"github.com/gin-gonic/gin"
 	"github.com/thoas/go-funk"
 	"gorm.io/gorm"
-	"niromash-api/api"
-	"niromash-api/model"
 	"regexp"
 	"strings"
 	"time"
