@@ -13,7 +13,7 @@ type Project struct {
 	Link        string         `json:"link"`
 	GithubLink  string         `json:"githubLink"`
 	Date        time.Time      `json:"date" gorm:"not null;default:CURRENT_TIMESTAMP"`
-	Client      string         `json:"client;not null;default:'Niromash'"`
+	Client      string         `json:"client" gorm:"not null;default:'Niromash'"`
 	Categories  pq.StringArray `json:"categories" gorm:"type:text[]"`
 	TechStack   pq.StringArray `json:"techStack" gorm:"type:text[]"`
 	Images      pq.StringArray `json:"images" gorm:"type:text[]"`
